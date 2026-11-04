@@ -1,0 +1,45 @@
+/* Ygsjöbygg: logotyp, kundomdömen och drönarfilm, november 2026. */
+.mark img{width:146px;height:auto;max-width:100%;object-fit:contain}
+.foot .mark img{width:218px}
+.nav-in{padding-top:.45rem;padding-bottom:.45rem}
+.review-strip{border-bottom:1px solid var(--line);background:#fff}
+.review-strip-inner{max-width:var(--maxw);margin:auto;padding:20px var(--pad);display:flex;align-items:center;justify-content:space-between;gap:16px;text-decoration:none}
+.review-strip-score{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.review-strip-score strong{font-size:1.2rem;color:var(--ink)}
+.review-strip-source{color:var(--mute);font-size:.9rem}
+.review-strip-link{color:var(--blue-deep);text-decoration:underline;text-underline-offset:4px;font-size:.94rem;white-space:nowrap}
+.review-stars{display:flex;gap:3px;color:#a96b0b}
+.review-stars svg{width:17px;height:17px;fill:currentColor}
+.customer-reviews{background:#f2f6f8;scroll-margin-top:130px}
+.customer-reviews-inner{max-width:var(--maxw);padding:0 var(--pad);margin:auto}
+.customer-reviews-top{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:36px}
+.customer-reviews-top h2{max-width:19ch;margin-bottom:12px}
+.customer-reviews-top p{max-width:48ch;color:var(--mute);margin:0}
+.customer-reviews-score{flex-shrink:0;text-align:right}
+.customer-reviews-score strong{font-family:"Familjen Grotesk",sans-serif;font-size:3.6rem;font-weight:500;line-height:1.05;letter-spacing:-.03em}
+.customer-reviews-score small{font-size:1.2rem;letter-spacing:0}
+.customer-reviews-score .review-stars{justify-content:flex-end;margin:10px 0}
+.customer-reviews-score span{font-size:.92rem;color:var(--mute)}
+.customer-review-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.customer-review{margin:0;background:white;border:1px solid var(--line);padding:30px;display:flex;flex-direction:column;min-height:240px}
+.customer-review blockquote{margin:0 0 32px;font-family:"Familjen Grotesk",sans-serif;font-size:clamp(1.3rem,2vw,1.65rem);font-weight:500;line-height:1.4;flex:1}
+.customer-review figcaption strong,.customer-review figcaption span{display:block}
+.customer-review figcaption span{font-size:.84rem;color:var(--mute);margin-top:5px}
+.customer-reviews-bottom{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-top:26px}
+.customer-reviews-note{font-size:.82rem;color:var(--mute);max-width:58ch;margin:0}
+.hero-film-toggle{position:absolute;z-index:3;top:20px;right:var(--pad);min-height:44px;padding:8px 15px;border:1px solid rgba(255,255,255,.65);background:rgba(16,23,34,.72);color:white;font:inherit;font-size:.85rem;cursor:pointer;border-radius:2px}
+.hero-film-toggle:hover{background:#fff;color:var(--ink)}
+.hero-film-toggle:focus-visible{outline:3px solid white;outline-offset:4px}
+@media(max-width:700px){
+ .mark img{width:124px}.foot .mark img{width:200px}
+ .review-strip-inner{align-items:flex-start;flex-direction:column;gap:10px;padding-top:20px;padding-bottom:20px}
+ .review-strip-score{gap:10px}.review-strip-source{flex-basis:100%}
+ .customer-reviews-top{align-items:start;flex-direction:column;gap:22px}
+ .customer-reviews-score{text-align:left}.customer-reviews-score .review-stars{justify-content:flex-start}
+ .customer-review-grid{grid-template-columns:1fr;gap:12px}
+ .customer-review{min-height:0;padding:25px}.customer-review blockquote{margin-bottom:24px}
+ .customer-reviews-bottom{flex-direction:column;align-items:stretch;gap:18px}
+ .customer-reviews-bottom .btn{justify-content:center}
+ .hero-film-toggle{top:14px;font-size:.8rem}
+}
+@media(prefers-reduced-motion:reduce){.hero-film-toggle{display:none}}

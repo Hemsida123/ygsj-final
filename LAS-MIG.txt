@@ -1,0 +1,24 @@
+YGSJÖBYGG – UPPDATERING 4 NOVEMBER 2026
+
+Ladda upp innehållet i denna mapp till samma plats som de befintliga filerna i ygsj-bygg-7.
+Ersätt HTML-filerna och behåll mappen media. Lägg också till updates.css.
+Index ensam räcker inte: logotyp, film, poster och stilmall måste följa med.
+
+Ändrat:
+- Kundens bifogade logotyp i sidhuvud och sidfot på samtliga sidor.
+- 5,0 av 5 från 12 Google-omdömen, korta citat och länk till Kundernas.se.
+- Betyg och antal är manuellt kontrollerade 2026-11-04 och uppdateras inte automatiskt.
+- Drönarfilmen från Ygsjo-bygg-hemsida3 används i heron, utan ljud och med loop.
+- Pausknapp och stillbild för besökare som har valt minskad rörelse.
+- Originalfilmens 1280 × 720 pixlar behålls. Ingen uppskalning.
+
+Källor:
+https://kundernas.se/ygsjobygg
+https://hemsida123.github.io/Ygsjo-bygg-hemsida3/assets/hero-film.mp4
+
+Detta är filer för uppladdning. Den publicerade GitHub-sidan ändras först när filerna laddas upp.
+
+LOGOTYP FÖR VIT BAKGRUND
+Den transparenta varianten används enbart högst upp i sidhuvudet.
+Logotypen i footern, inklusive den blå bakgrunden, är oförändrad.
+Den nya PNG-filen måste följa med vid uppladdningen.
